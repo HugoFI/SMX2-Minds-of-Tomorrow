@@ -1,8 +1,24 @@
 *{
     box-sizing: border-box;
 }
-body{
+html{
     font-family: 'Quicksand', sans-serif;
+    font-size: 100px;
+}
+body{
+    margin: 0%;
+}
+h1{
+    font-size: 0.8rem;
+}
+h2{
+    font-size: 0.5rem;
+}
+p{
+    font-size: 0.2rem;
+}
+.txt{
+    font-size: 0.4rem;
 }
 #encabezado-imagen{
     width: 100%;
@@ -10,12 +26,111 @@ body{
 }
 .centrado{
     position: absolute;
-    top: 61%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: black;
     text-align: center;
+    width: 70%;
+}
+.section-1-3{
+    display: flex;
+}
+.img-section{
+    width: 90%;
+    padding-left: 10%;
+}
+.sec-izq{
+    width: 50%;
+    padding-left: 5%;
+}
+.sec-der{
+    width: 50%;
+    padding-left: 5%;
+}
+.section-2{
+    background-color: rgb(0, 255, 170);
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    padding: 0%;
+}
+.section-2-imgs{
+    display: flex;
+}
+.section-2-imgs-1{
+    display: flex;
+    width: 100%;
+    background-color: red;
+    justify-content: center;
     align-items: center;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: bold;
+}
+.section-2-imgs-2{
+    display: flex;
+    width: 100%;
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+}
+.s-2-imgs{
+    width: 200px;
+    padding-left: 0%;
+}
+.text-img{
+    padding: 10%;
+}
+@media screen and (max-width:1200px){
+    html{
+        font-size: 65px;
+    }
+    .txt{
+
+    }
+    #encabezado-imagen{
+        width: 100%;
+        height: 100%;
+    }
+    .centrado{
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        align-items: center;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+    }
+    .sec-izq{
+        width: 100%;
+    }
+    .sec-der{
+        width: 100%;
+    }
+    .section-1-3{
+        display: block;
+    }
+    .section-2-imgs{
+        display: block;
+    }
+    .text-img{
+        padding: 5%;
+    }
+    .section-2-imgs-1{
+        width: 100%;
+        background-color: red;
+        justify-content: center;
+        align-items: center;
+        padding-left: 5%;
+    }
+    .section-2-imgs-2{
+        width: 100%;
+        background-color: orange;
+        justify-content: center;
+        align-items: center;
+        padding-left: 5%;
+        max-width: 100%;
+    }
+    .s-2-imgs{
+        width: 230px;
+        padding-left: 0%;
+    }
 }

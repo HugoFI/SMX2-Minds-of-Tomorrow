@@ -15,7 +15,7 @@ h2{
     font-size: 0.5rem;
 }
 p{
-    font-size: 0.2rem;
+    font-size: 0.3rem;
 }
 .txt{
     font-size: 0.4rem;
@@ -60,14 +60,12 @@ p{
 .section-2-imgs-1{
     display: flex;
     width: 100%;
-    background-color: red;
     justify-content: center;
     align-items: center;
 }
 .section-2-imgs-2{
     display: flex;
     width: 100%;
-    background-color: orange;
     justify-content: center;
     align-items: center;
 }
@@ -78,12 +76,59 @@ p{
 .text-img{
     padding: 10%;
 }
-@media screen and (max-width:1200px){
+.section-4-img{
+    display: flex;
+    width: 379px;
+}
+.section-4{
+    display: flex;
+}
+.section-4-imgs-1{
+    display: flex;
+    width: 100%;
+    padding-bottom: 0%;
+    justify-content: center;
+    align-items: center;
+}
+.section-4-imgs-2{
+    display: flex;
+    width: 100%;
+    padding-bottom: 0%;
+    justify-content: center;
+    align-items: center;
+}
+.s-4-imgs{
+    width: 100%;
+    margin-bottom: -0.3rem;
+}
+.section-5{
+    background-color: rgb(0, 162, 255);
+    display: flex;
+    text-align: center;
+}
+.section-6{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 5%;
+}
+.section-6-p1{
+    display: flex;
+    width: 60%;
+}
+.section-6-p2{
+    display: flex;
+    width: 40%;
+}
+.section-6-2{
+    padding-right: 30%;
+}
+.txt-6{
+    font-size: 0.2rem;
+}
+@media screen and (max-width:700px){
     html{
         font-size: 65px;
-    }
-    .txt{
-
     }
     #encabezado-imagen{
         width: 100%;
@@ -116,14 +161,12 @@ p{
     }
     .section-2-imgs-1{
         width: 100%;
-        background-color: red;
         justify-content: center;
         align-items: center;
         padding-left: 5%;
     }
     .section-2-imgs-2{
         width: 100%;
-        background-color: orange;
         justify-content: center;
         align-items: center;
         padding-left: 5%;
@@ -132,5 +175,54 @@ p{
     .s-2-imgs{
         width: 230px;
         padding-left: 0%;
+    }
+    .section-4{
+        display: block;
+    }
+    .section-4-imgs-1{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-4-imgs-2{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .s-4-imgs{
+        width: 100%;
+        margin-bottom: -0.5rem;
+    }
+    .section-5{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .section-6{
+        background-color: black;
+        color: white;
+        display: block;
+        padding: 5%;
+    }
+    .section-6-1{
+        width: 100%;
+    }
+    .section-6-2{
+        width: 100%;
+    }
+    .section-6-3{
+        width: 100%;
+    }
+    .section-6-p1{
+        display: flex;
+        width: 50%;
+    }
+    .section-6-p2{
+        display: flex;
+        width: 100%;
+    }
+    .txt-6{
+        font-size: 0.4rem;
     }
 }
